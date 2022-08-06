@@ -36,8 +36,8 @@ Users should be able to:
 
 ## Built with
 
-- [![Reactjs][reactjs]][reactjs-url] [![MaterialUI][materialui]][materialui-url] [![BEM Methodology][bem methodology]][bem methodology-url]
-- [![disease.sh][disease.sh]][disease.sh-url] [![Firebase][firebase]][firebase-url]
+- [![Reactjs][reactjs]][reactjs-url] [![MaterialUI][materialui]][materialui-url] 
+- [![disease.sh][disease.sh]][disease.sh-url] [![BEM Methodology][bem methodology]][bem methodology-url]
 - [![Chartjs][chartjs]][chartjs-url] [![Leaflet][leaflet]][leaflet-url]
 
 ## How To Use
@@ -100,7 +100,5 @@ $ npm start
 [chartjs-url]: https://www.chartjs.org/
 [bem methodology]: https://img.shields.io/badge/BEM%20Methodology-062433?style=for-the-badge&logo=BEM&logoColor=16a1e6
 [bem methodology-url]: https://api.github.com/
-[firebase]: https://img.shields.io/badge/FIREBASE-FFF89C?style=for-the-badge&logo=firebase&logoColor=FF9F29
-[firebase-url]: https://firebase.google.com/
 [disease.sh]: https://img.shields.io/badge/disease.sh%20API%20-FF8FB1?style=for-the-badge&logo=&logoColor=61DBFB
 [disease.sh-url]: https://disease.sh/docs/
