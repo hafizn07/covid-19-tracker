@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="public/logo512.png" alt="Covid-19 Tracker" width="200" style="border-radius:10px"></a>
+  <br>
+  Covid-19 Tracker
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">A website that gives live informations of Covid-19 cases across different countries.</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#built-with">Build with</a> •
+  <a href="#links">Live links</a> •
+  <a href="#how-to-use">How to use</a> •
+  <a href="#issues-solved">Issues solved</a>
+</p>
 
-In the project directory, you can run:
+<h5 align="center">Don't forget to give a ⭐️ </h5>
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![screenshot](public/preview.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+### The challenge
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users should be able to:
 
-### `npm run build`
+- View the optimal layout for the app depending on their device's screen size.
+- Get details of live covid cases - live cases, recovered and death details.
+- See relevant covid-19 information based on your search.
+- Graphical representaion of 120 days based on your search.
+- Researched `Components` in Material UI and `Emmet` cheat sheats .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [![Reactjs][reactjs]][reactjs-url] [![MaterialUI][materialui]][materialui-url] [![BEM Methodology][bem methodology]][bem methodology-url]
+- [![disease.sh][disease.sh]][disease.sh-url] [![Firebase][firebase]][firebase-url]
+- [![Chartjs][chartjs]][chartjs-url] [![Leaflet][leaflet]][leaflet-url]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How To Use
 
-### `npm run eject`
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone this repository
+$ git clone https://github.com/hafizmp/disney-plus-clone.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Go into the repository
+$ cd disney-plus-clone
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+$ npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Run the app
+$ npm start
+```
 
-## Learn More
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Solution URL: [GitHub](https://github.com/hafizmp/DevFinder)
+- Live Site URL: [Covid-19 Tracker](https://devfinderx.netlify.app/)
 
-### Code Splitting
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Issues Solved
 
-### Analyzing the Bundle Size
+<h4 align="center">Try to install the required dependency of the following version if you face any issues while running the code.</h4>
+<p align="center">
+<img src="https://img.shields.io/badge/react--leaflet-v2.7.0-3CCF4E"> <img src="https://img.shields.io/badge/react--chartjs--2-v2.9.0-3CCF4E"> <img src="https://img.shields.io/badge/chart.js-v2.9.3-3CCF4E"> <img src="https://img.shields.io/badge/leaflet-v1.6.0-3CCF4E"> <img src="https://img.shields.io/badge/numeral-v2.0.6-3CCF4E">
+</p>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## - To downgrade a npm dependencies to specific version 👇
 
-### Making a Progressive Web App
+```bash
+# reinstall the npm dependacy
+$ npm install <package>@<version>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Example
+$ npm i chart.js@2.9.3 react-chartjs-2@2.9.0 leaflet@1.6.0  react-leaflet@1.6.0 numeral@2.0.6
 
-### Advanced Configuration
+# Run the app
+$ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[reactjs]: https://img.shields.io/badge/REACT%20JS-000000?style=for-the-badge&logo=REACT&logoColor=61DBFB
+[reactjs-url]: https://reactjs.org/
+[materialui]: https://img.shields.io/badge/Material%20UI-293462?style=for-the-badge&logo=mui&logoColor=E7F6F2
+[materialui-url]: https://mui.com/
+[leaflet]: https://img.shields.io/badge/Leaflet.js-A2B5BB?style=for-the-badge&logo=leaflet&logoColor=2B7A0B
+[leaflet-url]: https://leafletjs.com/
+[chartjs]: https://img.shields.io/badge/Chart.js-FFFFFF?style=for-the-badge&logo=chart.js&logoColor=ff787c
+[chartjs-url]: https://www.chartjs.org/
+[bem methodology]: https://img.shields.io/badge/BEM%20Methodology-062433?style=for-the-badge&logo=BEM&logoColor=16a1e6
+[bem methodology-url]: https://api.github.com/
+[firebase]: https://img.shields.io/badge/FIREBASE-FFF89C?style=for-the-badge&logo=firebase&logoColor=FF9F29
+[firebase-url]: https://firebase.google.com/
+[disease.sh]: https://img.shields.io/badge/disease.sh%20API%20-FF8FB1?style=for-the-badge&logo=&logoColor=61DBFB
+[disease.sh-url]: https://disease.sh/docs/
