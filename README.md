@@ -63,8 +63,8 @@ $ npm start
 
 ## Links
 
-- Solution URL: [GitHub](https://github.com/hafizmp/DevFinder)
-- Live Site URL: [Covid-19 Tracker](https://devfinderx.netlify.app/)
+- Solution URL: [GitHub](https://github.com/hafizmp/covid-19-tracker)
+- Live Site URL: [Covid-19 Tracker](https://trackcovid--19.web.app/)
 
 <hr>
 
