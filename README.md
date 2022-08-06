@@ -20,7 +20,7 @@
 
 <hr>
 
-![screenshot](public/preview.png)
+![screenshot](public/previewimg.png)
 
 ## Overview
 
