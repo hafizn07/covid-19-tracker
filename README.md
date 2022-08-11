@@ -46,10 +46,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/hafizmp/disney-plus-clone.git
+$ git clone https://github.com/hafizmp/covid-19-tracker.git
 
 # Go into the repository
-$ cd disney-plus-clone
+$ cd covid-19-tracker
 
 # Install dependencies
 $ npm install
